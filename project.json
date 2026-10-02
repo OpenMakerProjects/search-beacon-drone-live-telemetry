@@ -1,0 +1,20 @@
+{
+  "id": 833,
+  "title": "Search Beacon Drone Live Telemetry",
+  "repository_slug": "search-beacon-drone-live-telemetry",
+  "category": "Drones",
+  "platform": "Jetson Orin Nano",
+  "platform_family": "python",
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "connectivity": "LoRa",
+  "components": [
+    "telemetry radio",
+    "LiDAR"
+  ],
+  "scope": "Build a drones prototype that uses telemetry radio, LiDAR to stream position, battery, and sensor status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Telemetry demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
